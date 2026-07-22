@@ -25,3 +25,21 @@ console.log("Multiplication : ",mul(3,7));
         console.log(arguments);
     }
     ni("zaid");
+
+    // Synchronous and Asynchronous Programming : 
+
+    // console.log("Java Script");
+    // function hello() {
+    //     console.log("Hello World");
+    // }
+    // hello();
+    // console.log("This is Synchronous Programming");
+
+    const hello = () => {
+        setTimeout( () => {
+            console.log("Hello,World!");
+        },2000);
+    }
+    console.log("This is asynchronous Programming");
+    hello();
+
